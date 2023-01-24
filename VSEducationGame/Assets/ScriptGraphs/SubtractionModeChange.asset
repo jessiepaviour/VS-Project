@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: SubtractionModeChange
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"SubtractionButtonFunction","summary":"Sets
+      the mode to subtract","pan":{"x":334.2734,"y":-34.31921},"zoom":0.8,"elements":[{"coroutine":false,"defaultValues":{"target":null},"position":{"x":69.0,"y":-214.0},"guid":"87ff352d-a2a1-4526-8eb4-4c1653f43c70","$version":"A","$type":"Unity.VisualScripting.OnButtonClick","$id":"9"},{"kind":"Application","defaultValues":{"name":{"$content":"Mode","$type":"System.String"}},"position":{"x":413.0,"y":-236.0},"guid":"9477c696-43a4-493b-8321-2c706b0e90ce","$version":"A","$type":"Unity.VisualScripting.SetVariable","$id":"11"},{"type":"System.Int32","value":{"$content":2,"$type":"System.Int32"},"defaultValues":{},"position":{"x":206.0,"y":-43.0},"guid":"715cf9f6-026f-4100-9d12-d6e870f8edf2","$version":"A","$type":"Unity.VisualScripting.Literal","$id":"13"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"assign","guid":"71a63d6f-eafb-4604-88b9-0f1279987e78","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"output","destinationUnit":{"$ref":"11"},"destinationKey":"input","guid":"d57c54df-f248-4749-9a50-6aceb2ebae1e","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
