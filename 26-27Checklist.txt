@@ -1,0 +1,10 @@
+Notes for 26-27 VS project:
+- Buttons random generated number:
+	Since embed are applied to single components and variables can be shared, 
+	random generate on individual buttons unless selected button
+- Timer:
+	Set up timer and add sounds to it 
+- Correct button selected on GameScene
+- Point System
+- Test game works
+- Finish Pause screen
